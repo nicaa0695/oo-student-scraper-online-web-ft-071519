@@ -39,5 +39,9 @@ class Scraper
          attributes_hash[:blog] = link
        end
      end
-     
+     attributes_hash[:profile_quote] = student_profile.css("div.profile-quote").text
+     attributes_hash[:bio] = student_profile.css("div.description-holder p").text
+     attributes_hash
+   end 
+ end 
    
