@@ -9,6 +9,7 @@ class Scraper
            student = {name: name, location: location, profile_url: profile_url}
            student_list << student
        end
+     end
        student_list
      end
  
