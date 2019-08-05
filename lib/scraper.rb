@@ -23,6 +23,7 @@ class Scraper
        profile[:github] = social if social.include?("github")
        profile[:blog] = social if !profile.has_value?(social) #!profile.include?(social)
      end 
+   end
 
       profile[:profile_quote] = student_doc.css("div.profile-quote").text
      profile[:bio] = student_doc.css("div.description-holder p").text
