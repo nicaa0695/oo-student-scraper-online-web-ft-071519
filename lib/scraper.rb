@@ -5,4 +5,7 @@ class Scraper
          :name => student.search("h4.student-name")[0].text,
          :location => student.search("p.student-location")[0].text,
          :profile_url => student.search("a")[0]["href"]
-       }
+       } 
+     end 
+   end 
+   
