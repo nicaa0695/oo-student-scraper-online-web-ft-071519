@@ -39,4 +39,5 @@ class Scraper
          attributes_hash[:blog] = link
        end
      end
+     
    
