@@ -1,5 +1,5 @@
 class Scraper 
-  def self.scrape
+  def self.scrape_index_page
   doc = Nokogiri::HTML(open(index_url))
      students = doc.css("div.student-card").collect do |student|
        {
