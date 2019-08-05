@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'pry'
+require 'nokogiri'
 
 class Scraper
   attr_accessor :name, :location, :profile_url
