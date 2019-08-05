@@ -11,6 +11,8 @@ class Scraper
          profile_url = students.css('a').attribute('href').value
          student = {name: name, location: location, profile_url: profile_url}
          student_list << student
+       end 
+       student_list
   end		  
 
  
