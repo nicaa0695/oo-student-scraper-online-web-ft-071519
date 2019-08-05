@@ -4,7 +4,7 @@ class Scraper
 
   students = []
   
-  def self.scrape_index_page(https://learn-co-curriculum.github.io/student-scraper-test-page/index.html)
+  def self.scrape_index_page()
      doc = Nokogiri::HTML(open(https://learn-co-curriculum.github.io/student-scraper-test-page/index.html))
      student_list = []
 
