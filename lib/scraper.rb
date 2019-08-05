@@ -1,3 +1,4 @@
+require 'open'
 require 'pry'
 
 class Scraper
