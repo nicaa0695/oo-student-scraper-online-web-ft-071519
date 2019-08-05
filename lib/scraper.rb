@@ -23,3 +23,5 @@ class Scraper
      student_array
    end
    
+   
+   
